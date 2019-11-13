@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="add">ADD</string>
+    <string name="what_are_your_todo_s">What are your ToDo\'s?</string>
+</resources>
