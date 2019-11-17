@@ -5,35 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:theme="@style/AppTheme.MainActivity"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/item_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="What are your ToDo's?"
+        android:inputType=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
+        android:textCursorDrawable="@null" />
 
-
-
-        <EditText
-
-            android:id="@+id/item_edit_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:hint="What are your ToDo's?"
-            android:inputType=""
-            android:autofillHints="" />
-
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="@string/add" />
-
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        />
 
     <ListView
         android:id="@+id/items_list"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-
-        android:choiceMode="multipleChoice"/>
+        android:choiceMode="multipleChoice" />
 
 </LinearLayout>
 
